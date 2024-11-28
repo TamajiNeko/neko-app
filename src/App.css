@@ -22,6 +22,7 @@ p ,a{
   width: 300px;
   height: 400px;
   overflow: hidden;
+  scale: 175%;
 }
 
 .image-box {
