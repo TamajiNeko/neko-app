@@ -35,7 +35,7 @@ function App() {
 
   const data = {
     user_name: "Neko Tamji",
-    tag: "Neko_7399",
+    tag: "NekoTamaji",
     first_name: "Nichakan",
     last_name: "Supphaphol",
     phone: "0961852751"
@@ -78,8 +78,8 @@ function App() {
                 <img className="post-profile mr4" src={profile_image}></img>
                 <div className="post-text-section">
                   <div className="post-user-info">
-                    <p className="post-username mr2">Neko Tamji</p>
-                    <p className="post-tag mr2">@Neko_7399</p>
+                    <p className="post-username mr2">{data.user_name}</p>
+                    <p className="post-tag mr2">@{data.tag}</p>
                     <p className="post-date">· Feb 14, 2024</p>
                   </div>
                   <p className="post-descriptions">没ったけど頑張ったから供養TT</p>
