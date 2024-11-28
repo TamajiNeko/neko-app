@@ -188,6 +188,7 @@ p ,a{
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .post-username {
@@ -205,6 +206,7 @@ p ,a{
 .post-image {
   width: calc(90% - 0.75rem);
   border-radius: 8pt;
+  cursor: pointer;
 }
 
 .mb5 {
